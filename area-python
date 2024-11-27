@@ -1,0 +1,8 @@
+def area(base , height):
+    area = 0.5*base*height
+    return area
+
+
+base = float(input("enter base: "))
+height = float(input("enter height: "))
+print(area(base,height))
