@@ -4,7 +4,7 @@ population = {
     'usa': 32,
     'pakistan': 21
 }
-
+#functions: 
 def add():
     country=input("Enter country name to add:")
     country=country.lower()
@@ -15,8 +15,9 @@ def add():
     p=int(p)
     population[country]=p # Adds new key value pair to dictionary
     print(population)
-
+#print functions
 def print_all():
     for country,p in population.items():
         print(f"{country}==>{p}")
+        
 print_all()
