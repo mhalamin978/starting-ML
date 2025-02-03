@@ -15,7 +15,7 @@ def add():
     p=int(p)
     population[country]=p # Adds new key value pair to dictionary
     print(population)
-#print functions
+#print functions ollo 
 def print_all():
     for country,p in population.items():
         print(f"{country}==>{p}")
