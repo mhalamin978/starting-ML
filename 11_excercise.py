@@ -4,7 +4,7 @@ population = {
     'usa': 32,
     'pakistan': 21
 }
-#functions: .. .. ollo
+#functions: .. .. ollo...... maintaining stake
 def add():
     country=input("Enter country name to add:")
     country=country.lower()
